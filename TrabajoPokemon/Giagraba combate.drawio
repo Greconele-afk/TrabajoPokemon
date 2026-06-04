@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="zXFeyampj87ydOX_mxl0">
+    <mxGraphModel dx="2009" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="530" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-12" parent="UlaPMoW8hxVsUxE6jbdi-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;realizarAtaque(indiceHabilidad)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-15" parent="1" style="html=1;whiteSpace=wrap;" value="Jugador" vertex="1">
+          <mxGeometry height="50" width="110" x="340" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="450" y="99.5" as="sourcePoint" />
+            <mxPoint x="530" y="99.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="530" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-18" parent="UlaPMoW8hxVsUxE6jbdi-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;getActivo()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="450" y="204.5" as="sourcePoint" />
+            <mxPoint x="530" y="204.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-20" parent="1" style="html=1;whiteSpace=wrap;" value="Entrenador" vertex="1">
+          <mxGeometry height="50" width="110" x="340" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="305" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-22" parent="UlaPMoW8hxVsUxE6jbdi-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;getHabilidades()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="485" y="330" as="sourcePoint" />
+            <mxPoint x="565" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-24" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="565" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-25" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="450" y="424.5" as="sourcePoint" />
+            <mxPoint x="530" y="424.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-28" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="530" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-29" parent="UlaPMoW8hxVsUxE6jbdi-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;List&amp;lt;Habilidad&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="305" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-31" parent="UlaPMoW8hxVsUxE6jbdi-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;getPotencia()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="485" y="530" as="sourcePoint" />
+            <mxPoint x="565" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-33" parent="1" style="html=1;whiteSpace=wrap;" value="Habilidad" vertex="1">
+          <mxGeometry height="50" width="110" x="565" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-34" parent="1" style="html=1;whiteSpace=wrap;" value="Habilidad" vertex="1">
+          <mxGeometry height="50" width="110" x="350" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="460" y="634.5" as="sourcePoint" />
+            <mxPoint x="540" y="634.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-37" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="540" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-38" parent="UlaPMoW8hxVsUxE6jbdi-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;potencia&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-39" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="305" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-40" parent="UlaPMoW8hxVsUxE6jbdi-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;recibirDaño(potencia)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="485" y="770" as="sourcePoint" />
+            <mxPoint x="565" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-42" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="565" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-43" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="340" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="450" y="864.5" as="sourcePoint" />
+            <mxPoint x="530" y="864.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="530" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-46" parent="UlaPMoW8hxVsUxE6jbdi-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;vidaActual actualizada&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-47" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="80" width="180" x="305" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-48" parent="UlaPMoW8hxVsUxE6jbdi-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;estaDebilitado()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="485" y="1000" as="sourcePoint" />
+            <mxPoint x="565" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-50" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="565" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-54" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="340" y="1095" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="450" y="1119.5" as="sourcePoint" />
+            <mxPoint x="530" y="1119.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-56" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="90" width="180" x="530" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-57" parent="UlaPMoW8hxVsUxE6jbdi-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;true / false&lt;/p&gt;&lt;p&gt;alt[Pokemos debilitadp]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="64" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-58" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="100" width="180" x="305" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-59" parent="UlaPMoW8hxVsUxE6jbdi-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;comprobarFinal()&lt;/p&gt;&lt;p&gt;end&lt;/p&gt;" vertex="1">
+          <mxGeometry height="74" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-60" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="485" y="1275" as="sourcePoint" />
+            <mxPoint x="565" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-61" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="565" y="1245" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-62" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Combate" vertex="1">
+          <mxGeometry height="70" width="180" x="305" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-63" parent="UlaPMoW8hxVsUxE6jbdi-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;p&gt;cambiarTurno()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="44" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="485" y="1415" as="sourcePoint" />
+            <mxPoint x="565" y="1415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlaPMoW8hxVsUxE6jbdi-65" parent="1" style="html=1;whiteSpace=wrap;" value="Pokemon" vertex="1">
+          <mxGeometry height="50" width="110" x="565" y="1385" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
